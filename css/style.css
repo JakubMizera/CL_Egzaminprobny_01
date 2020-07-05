@@ -124,3 +124,62 @@ h1{
     font-size: 2rem;
     margin-bottom: 10px;
 }
+
+/* infoo styling end*/
+
+.intro_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: -5px 8px 20px rgba(0, 0, 0, 0.13);
+    height: 60%;
+    width: 40%;
+}
+
+h2{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.insert label{
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.insert{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+input[type="text"],
+input[type="email"]
+{
+    width: 340px;
+    border: none;
+    border-bottom: 1px solid var(--text-color);
+    margin-top: 12px;
+    padding-bottom: 8px;
+
+}
+
+.btn{
+    background-color: var(--accent-color);
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: none;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.13);
+}
